@@ -14,28 +14,28 @@ README.txt // documentation
 
 -----------------------
 INSTALLATION (made for Tomato-v1.5 source: https://github.com/X-com/RealmShark/)
-** If you do not want to verify the code then simply run the provided jar file after making sure the repository copy of Tomato works 
+** If you do not want to verify the code then simply run the provided jar file after making sure an official copy of Tomato works 
 
 
 1. Decompile the provided file "DpsLogger.class" using an IDE or any independent decompiling software
 
 2. Verify the contents of the code and make sure there is nothing of malicious intent
 
-3. Download tomato from the official repository: https://github.com/X-com/RealmShark/
+3. Download tomato from the official repo: https://github.com/X-com/RealmShark/
 
 4. Use a zipping software like 7-Zip to open the Tomato-v*.jar archive you downloaded from the official repository
 
 5. Replace the existing DpsLogger.class (found in \Tomato-v*.jar\example\damagecalc\<HERE>) from the fresh install of Tomato with the one provided in the zip
 
 -----------------------
-USAGE
+USAGE (how to vsniff)
 
 
 1. Launch the provided,- or the manually edited .jar 
 
 2. Make sure that the software is working, eg chat and DPS is being logged
 
-3. Enter Shatters, move a couple tiles and wait a few seconds
+3. Enter the Shatters and wait a few seconds
 
 4. Switch to the tab "Daily Quests" in the app
       --> if nothing shows up then there's no v, keep the app running and return to Step 3
